@@ -3755,3 +3755,1007 @@
 2019-03-14 14:59:43,280 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
 2019-03-14 14:59:43,280 [MainThread  ][DEBUG]  Optimization options: None
 2019-03-14 14:59:43,280 [MainThread  ][INFO ]  Initial parameter values: [-0.013537001871324228, -0.0454067774277587, -0.03120827152322421, -0.08265255106559864, 0.025199156426799513, -0.05817091142130653, 0.08938729115815836, 0.05322254994057926]
+2019-03-14 15:20:21,461 [MainThread  ][INFO ]  Final fidelity: 0.7022097403084698
+2019-03-14 15:20:21,461 [MainThread  ][INFO ]  Final parameters: [-0.04240035 -0.04237634  0.00128678  0.00610251  0.01308695 -0.00169257
+  0.14467046  0.12798476]
+2019-03-14 15:20:21,462 [MainThread  ][INFO ]  Fidelity: 0.7022097403084698
+2019-03-14 15:20:21,462 [MainThread  ][INFO ]  ---- Iteration 342/400
+2019-03-14 15:20:21,462 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.1616829  -0.32407784  0.29960142  0.44274884]
+2019-03-14 15:20:21,462 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.674185463659146
+2019-03-14 15:20:21,462 [MainThread  ][INFO ]  Starting optimization for tf=17.674185463659146
+2019-03-14 15:20:21,462 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 15:20:21,462 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 15:20:21,462 [MainThread  ][INFO ]  Initial parameter values: [0.059784967426889435, -0.09724571689144974, -0.004969899396916944, 0.029351092453498068, 0.07985217544847764, -0.04166039707996223, -0.007998222945168942, 0.009573286304480871]
+2019-03-14 15:31:13,843 [MainThread  ][INFO ]  Final fidelity: 0.7576700811642085
+2019-03-14 15:31:13,877 [MainThread  ][INFO ]  Final parameters: [ 0.12995736 -0.08235957 -0.00734128  0.04058721  0.00349077  0.08166512
+ -0.01616748 -0.00456795]
+2019-03-14 15:31:13,877 [MainThread  ][INFO ]  Fidelity: 0.7576700811642085
+2019-03-14 15:31:13,877 [MainThread  ][INFO ]  ---- Iteration 343/400
+2019-03-14 15:31:13,878 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.1785485  -0.40610358  0.01949231 -0.39655769]
+2019-03-14 15:31:13,878 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.714285714285715
+2019-03-14 15:31:13,878 [MainThread  ][INFO ]  Starting optimization for tf=17.714285714285715
+2019-03-14 15:31:13,878 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 15:31:13,878 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 15:31:13,878 [MainThread  ][INFO ]  Initial parameter values: [-0.06056733843972726, -0.09768200575648817, 0.07776080445940994, 0.08564193513971738, 0.008362779602479178, -0.02035433378794964, 0.0223413194938773, -0.08206259431294456]
+2019-03-14 15:56:40,773 [MainThread  ][INFO ]  Final fidelity: 0.6628878619760484
+2019-03-14 15:56:40,774 [MainThread  ][INFO ]  Final parameters: [-0.06878235 -0.01533431  0.26804396  0.23021352  0.00978971  0.0604234
+ -0.00868495 -0.21814116]
+2019-03-14 15:56:40,774 [MainThread  ][INFO ]  Fidelity: 0.6628878619760484
+2019-03-14 15:56:40,774 [MainThread  ][INFO ]  ---- Iteration 344/400
+2019-03-14 15:56:40,774 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.15392633  0.21936583  0.13053577 -0.29964778]
+2019-03-14 15:56:40,774 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.75438596491228
+2019-03-14 15:56:40,774 [MainThread  ][INFO ]  Starting optimization for tf=17.75438596491228
+2019-03-14 15:56:40,774 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 15:56:40,775 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 15:56:40,775 [MainThread  ][INFO ]  Initial parameter values: [-0.06612453352315746, -0.0005642354703414981, -0.04589816150963466, 0.09467658614744348, 0.0019072814180510766, -0.005269554750530564, -0.0976868077843885, 0.06814601740427256]
+2019-03-14 16:10:01,363 [MainThread  ][INFO ]  Final fidelity: 0.16564854258541045
+2019-03-14 16:10:01,364 [MainThread  ][INFO ]  Final parameters: [ 0.0113183   0.00102478 -0.04827104  0.19148892  0.00726686 -0.02546576
+  0.03164486 -0.01825659]
+2019-03-14 16:10:01,364 [MainThread  ][INFO ]  Fidelity: 0.16564854258541045
+2019-03-14 16:10:01,364 [MainThread  ][INFO ]  ---- Iteration 345/400
+2019-03-14 16:10:01,365 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.1561471   0.47943891 -0.20732566 -0.16629757]
+2019-03-14 16:10:01,365 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.794486215538846
+2019-03-14 16:10:01,365 [MainThread  ][INFO ]  Starting optimization for tf=17.794486215538846
+2019-03-14 16:10:01,365 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 16:10:01,365 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 16:10:01,365 [MainThread  ][INFO ]  Initial parameter values: [-0.08957529810625314, -0.0684634492017962, 0.08605785549333717, 0.009384467883561315, 0.012583509266441584, -0.08483652189142168, -0.007032663836167186, 0.019488319140803137]
+2019-03-14 16:18:15,589 [MainThread  ][INFO ]  Final fidelity: 0.17215465946203615
+2019-03-14 16:18:15,590 [MainThread  ][INFO ]  Final parameters: [-0.07764996 -0.07430459  0.06671412  0.00981768  0.01500778 -0.09958011
+ -0.00918406  0.00509823]
+2019-03-14 16:18:15,590 [MainThread  ][INFO ]  Fidelity: 0.17215465946203615
+2019-03-14 16:18:15,590 [MainThread  ][INFO ]  ---- Iteration 346/400
+2019-03-14 16:18:15,590 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.25436768 -0.40332932 -0.2552758   0.00548681]
+2019-03-14 16:18:15,591 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.834586466165412
+2019-03-14 16:18:15,591 [MainThread  ][INFO ]  Starting optimization for tf=17.834586466165412
+2019-03-14 16:18:15,591 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 16:18:15,591 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 16:18:15,591 [MainThread  ][INFO ]  Initial parameter values: [0.026555391912705895, -0.09390811929660557, -0.03176719513047557, 0.01714613874775725, 0.057195868123841476, -0.08694876840331722, 0.02075966047835842, 0.03779505010883885]
+2019-03-14 16:19:12,228 [MainThread  ][INFO ]  Final fidelity: 0.0
+2019-03-14 16:19:12,229 [MainThread  ][INFO ]  Final parameters: [ 0.02655539 -0.09390812 -0.0317672   0.01714614  0.05719587 -0.08694877
+  0.02075966  0.03779505]
+2019-03-14 16:19:12,229 [MainThread  ][INFO ]  Fidelity: 0.0
+2019-03-14 16:19:12,229 [MainThread  ][INFO ]  ---- Iteration 347/400
+2019-03-14 16:19:12,229 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.02152953  0.33567812  0.29771531  0.16659649]
+2019-03-14 16:19:12,230 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.874686716791977
+2019-03-14 16:19:12,230 [MainThread  ][INFO ]  Starting optimization for tf=17.874686716791977
+2019-03-14 16:19:12,230 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 16:19:12,230 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 16:19:12,230 [MainThread  ][INFO ]  Initial parameter values: [-0.0886244885575398, 0.020684615320700456, 0.049822771257957144, -0.07827650891866234, 0.015640156077447245, 0.036364075759920234, 0.02260587893879487, -0.0800196818900027]
+2019-03-14 16:32:33,244 [MainThread  ][INFO ]  Final fidelity: 0.723153318545739
+2019-03-14 16:32:33,244 [MainThread  ][INFO ]  Final parameters: [-0.0623773   0.03094621  0.04467348 -0.17329033  0.02006764  0.02518387
+  0.07887448 -0.000762  ]
+2019-03-14 16:32:33,245 [MainThread  ][INFO ]  Fidelity: 0.723153318545739
+2019-03-14 16:32:33,245 [MainThread  ][INFO ]  ---- Iteration 348/400
+2019-03-14 16:32:33,245 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.1401327  -0.33897668  0.38828405  0.10915477]
+2019-03-14 16:32:33,245 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.914786967418546
+2019-03-14 16:32:33,245 [MainThread  ][INFO ]  Starting optimization for tf=17.914786967418546
+2019-03-14 16:32:33,245 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 16:32:33,245 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 16:32:33,246 [MainThread  ][INFO ]  Initial parameter values: [0.08485875490823433, 0.041384220715166564, -0.05647869364034977, -0.030356458889613802, -0.07067388178189873, -0.018314054500925228, -0.005415181586505252, -0.04681182507299935]
+2019-03-14 16:33:33,568 [MainThread  ][INFO ]  Final fidelity: 0.0
+2019-03-14 16:33:33,569 [MainThread  ][INFO ]  Final parameters: [ 0.08485875  0.04138422 -0.05647869 -0.03035646 -0.07067388 -0.01831405
+ -0.00541518 -0.04681183]
+2019-03-14 16:33:33,569 [MainThread  ][INFO ]  Fidelity: 0.0
+2019-03-14 16:33:33,569 [MainThread  ][INFO ]  ---- Iteration 349/400
+2019-03-14 16:33:33,570 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.26757937 -0.08972734 -0.0674362   0.34790083]
+2019-03-14 16:33:33,570 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.954887218045112
+2019-03-14 16:33:33,570 [MainThread  ][INFO ]  Starting optimization for tf=17.954887218045112
+2019-03-14 16:33:33,570 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 16:33:33,570 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 16:33:33,570 [MainThread  ][INFO ]  Initial parameter values: [-0.015698202028629774, -0.0714286215091726, 0.03069429569860932, -0.08291606839475402, -0.07443358796349094, -0.07243295051480828, 0.0748823317248278, -0.007815766408950625]
+2019-03-14 16:50:42,838 [MainThread  ][INFO ]  Final fidelity: 0.5293098356473194
+2019-03-14 16:50:42,838 [MainThread  ][INFO ]  Final parameters: [-0.00727305 -0.08355575  0.02698131 -0.11497017 -0.05574246 -0.02968109
+  0.0252662  -0.01550471]
+2019-03-14 16:50:42,838 [MainThread  ][INFO ]  Fidelity: 0.5293098356473194
+2019-03-14 16:50:42,838 [MainThread  ][INFO ]  ---- Iteration 350/400
+2019-03-14 16:50:42,839 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.10759359  0.17624976  0.4902047  -0.26224095]
+2019-03-14 16:50:42,839 [MainThread  ][DEBUG]  Setting hyperparameter tf=17.994987468671678
+2019-03-14 16:50:42,839 [MainThread  ][INFO ]  Starting optimization for tf=17.994987468671678
+2019-03-14 16:50:42,839 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 16:50:42,839 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 16:50:42,839 [MainThread  ][INFO ]  Initial parameter values: [0.025884809312963025, -0.06005223661076353, 0.01731088383225768, 0.037381604186136785, 0.04954074275883236, 0.05666601226855314, 0.041499234930349405, 0.055991407358722295]
+2019-03-14 17:05:11,437 [MainThread  ][INFO ]  Final fidelity: 0.4625648664554455
+2019-03-14 17:05:11,438 [MainThread  ][INFO ]  Final parameters: [ 0.07353442 -0.0463377   0.02676666  0.06983114 -0.01761838  0.07683055
+  0.05017933  0.01154367]
+2019-03-14 17:05:11,438 [MainThread  ][INFO ]  Fidelity: 0.4625648664554455
+2019-03-14 17:05:11,438 [MainThread  ][INFO ]  ---- Iteration 351/400
+2019-03-14 17:05:11,439 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.42223603 -0.11886582 -0.4025349  -0.17804843]
+2019-03-14 17:05:11,439 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.035087719298247
+2019-03-14 17:05:11,439 [MainThread  ][INFO ]  Starting optimization for tf=18.035087719298247
+2019-03-14 17:05:11,439 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 17:05:11,439 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 17:05:11,439 [MainThread  ][INFO ]  Initial parameter values: [0.08630175370417204, -0.03134227492093154, 0.06086867736808679, -0.040102102556366065, 0.028962077268245068, 0.026382691689977478, -0.09527037728053922, 0.07512440554968469]
+2019-03-14 17:27:37,298 [MainThread  ][INFO ]  Final fidelity: 0.7506157267672668
+2019-03-14 17:27:37,299 [MainThread  ][INFO ]  Final parameters: [-0.02225692 -0.41385686  0.34649255 -0.00884939 -0.12056604 -0.09115725
+  0.12493801 -0.05522669]
+2019-03-14 17:27:37,299 [MainThread  ][INFO ]  Fidelity: 0.7506157267672668
+2019-03-14 17:27:37,299 [MainThread  ][INFO ]  ---- Iteration 352/400
+2019-03-14 17:27:37,300 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.42109836 -0.05519351 -0.42724114 -0.23410273]
+2019-03-14 17:27:37,300 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.075187969924812
+2019-03-14 17:27:37,300 [MainThread  ][INFO ]  Starting optimization for tf=18.075187969924812
+2019-03-14 17:27:37,300 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 17:27:37,300 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 17:27:37,300 [MainThread  ][INFO ]  Initial parameter values: [-0.025592591332319545, 0.06992939077793078, -0.08196394153123657, 0.015492120165382747, -0.033714898353758294, -0.021001797608804676, 0.02632517465020906, 0.05190324137948871]
+2019-03-14 17:28:39,770 [MainThread  ][INFO ]  Final fidelity: 0.0
+2019-03-14 17:28:39,771 [MainThread  ][INFO ]  Final parameters: [-0.02559259  0.06992939 -0.08196394  0.01549212 -0.0337149  -0.0210018
+  0.02632517  0.05190324]
+2019-03-14 17:28:39,771 [MainThread  ][INFO ]  Fidelity: 0.0
+2019-03-14 17:28:39,772 [MainThread  ][INFO ]  ---- Iteration 353/400
+2019-03-14 17:28:39,772 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.09192725 -0.38489053  0.32755625  0.07192538]
+2019-03-14 17:28:39,772 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.115288220551378
+2019-03-14 17:28:39,772 [MainThread  ][INFO ]  Starting optimization for tf=18.115288220551378
+2019-03-14 17:28:39,772 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 17:28:39,772 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 17:28:39,772 [MainThread  ][INFO ]  Initial parameter values: [0.06442665483340879, 0.04126171148120539, -0.01736679423763296, 0.09391891415931114, 0.09645337727311007, 0.05223134338472632, 0.021058996579720657, 0.0824917646169113]
+2019-03-14 17:28:44,103 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:28:46,033 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:28:47,838 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:28:49,594 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:28:56,922 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:28:58,779 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:00,619 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:03,544 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:11,333 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:13,249 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:16,282 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:18,087 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:20,989 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:22,823 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:24,834 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:27,765 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:29,568 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:32,438 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:34,196 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:37,242 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:39,065 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:40,891 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:43,803 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:48,095 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:49,854 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:52,761 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:55,644 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:29:58,664 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:30:02,883 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:30:04,802 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:30:07,862 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:30:16,741 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 17:30:21,351 [MainThread  ][INFO ]  Final fidelity: 39601.0
+2019-03-14 17:30:21,351 [MainThread  ][INFO ]  Final parameters: [ 0.06442665  0.04126171 -0.01736679  0.09391891  0.09645338  0.05223134
+  0.021059    0.08249176]
+2019-03-14 17:30:21,351 [MainThread  ][INFO ]  Optimization failed: got a nonphysical fidelity.
+2019-03-14 17:30:21,351 [MainThread  ][INFO ]  Fidelity: 39601.0
+2019-03-14 17:30:21,351 [MainThread  ][INFO ]  ---- Iteration 354/400
+2019-03-14 17:30:21,352 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.26376039  0.15015493 -0.36326712  0.20726241]
+2019-03-14 17:30:21,352 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.155388471177943
+2019-03-14 17:30:21,352 [MainThread  ][INFO ]  Starting optimization for tf=18.155388471177943
+2019-03-14 17:30:21,352 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 17:30:21,352 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 17:30:21,352 [MainThread  ][INFO ]  Initial parameter values: [0.046750741654732, -0.07185484449439686, 0.05577543855147324, -0.04995208226778452, -0.05482872193727997, 0.04932449885956061, 0.083617880518089, 0.009598153824141642]
+2019-03-14 17:50:08,571 [MainThread  ][INFO ]  Final fidelity: 0.652797297214521
+2019-03-14 17:50:08,572 [MainThread  ][INFO ]  Final parameters: [ 0.11593956 -0.16658305 -0.13155758 -0.08798447  0.11338467 -0.08802465
+  0.30970621 -0.00718551]
+2019-03-14 17:50:08,572 [MainThread  ][INFO ]  Fidelity: 0.652797297214521
+2019-03-14 17:50:08,572 [MainThread  ][INFO ]  ---- Iteration 355/400
+2019-03-14 17:50:08,573 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.39065426 -0.21760782  0.32542145  0.49617536]
+2019-03-14 17:50:08,573 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.19548872180451
+2019-03-14 17:50:08,573 [MainThread  ][INFO ]  Starting optimization for tf=18.19548872180451
+2019-03-14 17:50:08,573 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 17:50:08,573 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 17:50:08,573 [MainThread  ][INFO ]  Initial parameter values: [0.01348316980644855, 0.04568729770881319, -0.04130554687495021, 0.0051792671556788045, -0.09797516575667507, -0.05158114309478641, 0.021441549889089306, -0.0014744945929874576]
+2019-03-14 18:06:13,227 [MainThread  ][INFO ]  Final fidelity: 0.817364399586289
+2019-03-14 18:06:13,228 [MainThread  ][INFO ]  Final parameters: [ 0.01564141  0.08799429 -0.03703523  0.00545072 -0.09238216 -0.01541257
+  0.07702645 -0.00175274]
+2019-03-14 18:06:13,228 [MainThread  ][INFO ]  Fidelity: 0.817364399586289
+2019-03-14 18:06:13,228 [MainThread  ][INFO ]  ---- Iteration 356/400
+2019-03-14 18:06:13,229 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.26068617  0.41688681 -0.44951317 -0.4147871 ]
+2019-03-14 18:06:13,229 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.235588972431078
+2019-03-14 18:06:13,229 [MainThread  ][INFO ]  Starting optimization for tf=18.235588972431078
+2019-03-14 18:06:13,229 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 18:06:13,229 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 18:06:13,229 [MainThread  ][INFO ]  Initial parameter values: [-0.013677836847766162, 0.0878416010316351, -0.04242556316632129, -0.0045558874918651265, 0.0599777417167246, -0.07372185170860297, -0.09691247620582143, -0.03276284227860904]
+2019-03-14 18:16:30,815 [MainThread  ][INFO ]  Final fidelity: 0.3705044202236108
+2019-03-14 18:16:30,816 [MainThread  ][INFO ]  Final parameters: [-0.05981757  0.03158485 -0.01886227 -0.00506394 -0.1073651  -0.14653509
+ -0.14600106 -0.03706673]
+2019-03-14 18:16:30,816 [MainThread  ][INFO ]  Fidelity: 0.3705044202236108
+2019-03-14 18:16:30,817 [MainThread  ][INFO ]  ---- Iteration 357/400
+2019-03-14 18:16:30,817 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.00311649  0.40624263 -0.15854827 -0.48033719]
+2019-03-14 18:16:30,817 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.275689223057643
+2019-03-14 18:16:30,817 [MainThread  ][INFO ]  Starting optimization for tf=18.275689223057643
+2019-03-14 18:16:30,817 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 18:16:30,817 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 18:16:30,817 [MainThread  ][INFO ]  Initial parameter values: [-0.010954799333781046, -0.09331098780652852, 0.06736465574364925, -0.052098578500328264, -0.08785318340252612, -0.02804150718770726, 0.07532576289843948, 0.02377002357628541]
+2019-03-14 18:26:12,286 [MainThread  ][INFO ]  Final fidelity: 0.8324447851932733
+2019-03-14 18:26:12,286 [MainThread  ][INFO ]  Final parameters: [-0.02614312 -0.12187236  0.06578422 -0.19600018 -0.09477529  0.07095811
+ -0.05011367 -0.01863932]
+2019-03-14 18:26:12,287 [MainThread  ][INFO ]  Fidelity: 0.8324447851932733
+2019-03-14 18:26:12,287 [MainThread  ][INFO ]  ---- Iteration 358/400
+2019-03-14 18:26:12,287 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.32081637  0.40415896  0.10757586  0.36203212]
+2019-03-14 18:26:12,287 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.31578947368421
+2019-03-14 18:26:12,287 [MainThread  ][INFO ]  Starting optimization for tf=18.31578947368421
+2019-03-14 18:26:12,287 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 18:26:12,287 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 18:26:12,287 [MainThread  ][INFO ]  Initial parameter values: [-0.06367091612192718, -0.057516078220090416, -0.02999889776665421, -0.017872333608510454, -0.07756576892449583, 0.09344525302479159, -0.03361466191348582, -0.007416945438106365]
+2019-03-14 18:34:38,754 [MainThread  ][INFO ]  Final fidelity: 0.801609983547937
+2019-03-14 18:34:38,755 [MainThread  ][INFO ]  Final parameters: [-0.07433048 -0.0258821  -0.02096352 -0.02221137 -0.09225674  0.03523877
+ -0.06987625 -0.00848088]
+2019-03-14 18:34:38,755 [MainThread  ][INFO ]  Fidelity: 0.801609983547937
+2019-03-14 18:34:38,755 [MainThread  ][INFO ]  ---- Iteration 359/400
+2019-03-14 18:34:38,756 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.2265883   0.15671506  0.18580693  0.24584152]
+2019-03-14 18:34:38,756 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.355889724310778
+2019-03-14 18:34:38,756 [MainThread  ][INFO ]  Starting optimization for tf=18.355889724310778
+2019-03-14 18:34:38,756 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 18:34:38,756 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 18:34:38,757 [MainThread  ][INFO ]  Initial parameter values: [-0.04876719236443781, 0.02279146962102889, 0.0015054569500855958, -0.030868945838156053, -0.08272967658507116, -0.03347708814595511, 0.013991208602720115, 0.008101618978257452]
+2019-03-14 18:36:43,212 [MainThread  ][INFO ]  Final fidelity: 1.3599624809176827e-11
+2019-03-14 18:36:43,213 [MainThread  ][INFO ]  Final parameters: [-0.05209554  0.02415275  0.00150237 -0.0304673  -0.08280236 -0.03345607
+  0.01374378  0.00778054]
+2019-03-14 18:36:43,213 [MainThread  ][INFO ]  Fidelity: 1.3599624809176827e-11
+2019-03-14 18:36:43,213 [MainThread  ][INFO ]  ---- Iteration 360/400
+2019-03-14 18:36:43,213 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.48564928 -0.13043462  0.36111498  0.09828086]
+2019-03-14 18:36:43,213 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.395989974937343
+2019-03-14 18:36:43,213 [MainThread  ][INFO ]  Starting optimization for tf=18.395989974937343
+2019-03-14 18:36:43,213 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 18:36:43,213 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 18:36:43,213 [MainThread  ][INFO ]  Initial parameter values: [0.06911262708300778, 0.0026187494425337077, -0.05622695619166107, 0.019386741079415362, 0.05529860104581513, -0.039600365393642915, 0.04881318656759931, 0.05077842751398179]
+2019-03-14 18:49:58,853 [MainThread  ][INFO ]  Final fidelity: 0.8123681478833585
+2019-03-14 18:49:58,854 [MainThread  ][INFO ]  Final parameters: [ 0.01803173  0.00536986  0.02214277  0.02526811  0.03775517 -0.05554847
+  0.05551253  0.09470035]
+2019-03-14 18:49:58,854 [MainThread  ][INFO ]  Fidelity: 0.8123681478833585
+2019-03-14 18:49:58,854 [MainThread  ][INFO ]  ---- Iteration 361/400
+2019-03-14 18:49:58,855 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.28065241 -0.42621606 -0.20848291 -0.39619278]
+2019-03-14 18:49:58,855 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.43609022556391
+2019-03-14 18:49:58,855 [MainThread  ][INFO ]  Starting optimization for tf=18.43609022556391
+2019-03-14 18:49:58,855 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 18:49:58,855 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 18:49:58,855 [MainThread  ][INFO ]  Initial parameter values: [-0.04418919121513301, -0.09006663613707895, -0.05471159395951071, 0.011376492853949663, -0.014300530088166827, -0.047548612758858515, 0.04419179190389194, 0.010928927112376072]
+2019-03-14 18:50:56,832 [MainThread  ][INFO ]  Final fidelity: 0.0
+2019-03-14 18:50:56,832 [MainThread  ][INFO ]  Final parameters: [-0.04418919 -0.09006664 -0.05471159  0.01137649 -0.01430053 -0.04754861
+  0.04419179  0.01092893]
+2019-03-14 18:50:56,833 [MainThread  ][INFO ]  Fidelity: 0.0
+2019-03-14 18:50:56,833 [MainThread  ][INFO ]  ---- Iteration 362/400
+2019-03-14 18:50:56,833 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.15186044  0.00210134 -0.33491241  0.00744201]
+2019-03-14 18:50:56,833 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.476190476190474
+2019-03-14 18:50:56,833 [MainThread  ][INFO ]  Starting optimization for tf=18.476190476190474
+2019-03-14 18:50:56,833 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 18:50:56,834 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 18:50:56,834 [MainThread  ][INFO ]  Initial parameter values: [-0.09739354277227852, -0.09332256664935384, -0.02182414965634323, 0.08922146958462565, -0.07327557145263189, 0.08584104349761332, -0.08957974211661275, -0.05062506092778978]
+2019-03-14 19:07:00,742 [MainThread  ][INFO ]  Final fidelity: 0.5297354951321337
+2019-03-14 19:07:00,743 [MainThread  ][INFO ]  Final parameters: [-0.24248616 -0.23754654  0.03320548  0.05710683 -0.02850108 -0.26518188
+  0.31978737 -0.10300531]
+2019-03-14 19:07:00,743 [MainThread  ][INFO ]  Fidelity: 0.5297354951321337
+2019-03-14 19:07:00,743 [MainThread  ][INFO ]  ---- Iteration 363/400
+2019-03-14 19:07:00,743 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.03303126 -0.3164569   0.21852514  0.44335634]
+2019-03-14 19:07:00,743 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.51629072681704
+2019-03-14 19:07:00,743 [MainThread  ][INFO ]  Starting optimization for tf=18.51629072681704
+2019-03-14 19:07:00,743 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 19:07:00,744 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 19:07:00,744 [MainThread  ][INFO ]  Initial parameter values: [0.033648087212292205, 0.08290445801292728, -0.02809631217481856, -0.08897066927021519, 0.0788134247823816, -0.09862854091211236, 0.04047849599594161, -0.017249599272648686]
+2019-03-14 19:13:07,353 [MainThread  ][INFO ]  Final fidelity: 0.1995685605803352
+2019-03-14 19:13:07,354 [MainThread  ][INFO ]  Final parameters: [ 0.03178294  0.08583668 -0.0291643  -0.08805994  0.08216347 -0.09057425
+  0.04015267 -0.017893  ]
+2019-03-14 19:13:07,354 [MainThread  ][INFO ]  Fidelity: 0.1995685605803352
+2019-03-14 19:13:07,354 [MainThread  ][INFO ]  ---- Iteration 364/400
+2019-03-14 19:13:07,354 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.39558573  0.4622886  -0.14507085  0.2934378 ]
+2019-03-14 19:13:07,355 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.55639097744361
+2019-03-14 19:13:07,355 [MainThread  ][INFO ]  Starting optimization for tf=18.55639097744361
+2019-03-14 19:13:07,355 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 19:13:07,355 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 19:13:07,355 [MainThread  ][INFO ]  Initial parameter values: [0.03758435822676154, -0.033298674801720884, 0.04645444822222236, 0.008876922633309414, 0.06169740666690676, -0.024410724426136204, 0.022469926248850997, 0.0008656312284048007]
+2019-03-14 19:14:02,168 [MainThread  ][INFO ]  Final fidelity: 0.0
+2019-03-14 19:14:02,169 [MainThread  ][INFO ]  Final parameters: [ 0.03758436 -0.03329867  0.04645445  0.00887692  0.06169741 -0.02441072
+  0.02246993  0.00086563]
+2019-03-14 19:14:02,169 [MainThread  ][INFO ]  Fidelity: 0.0
+2019-03-14 19:14:02,169 [MainThread  ][INFO ]  ---- Iteration 365/400
+2019-03-14 19:14:02,170 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.07535593 -0.30452204  0.36634218 -0.10230158]
+2019-03-14 19:14:02,170 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.596491228070175
+2019-03-14 19:14:02,170 [MainThread  ][INFO ]  Starting optimization for tf=18.596491228070175
+2019-03-14 19:14:02,170 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 19:14:02,170 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 19:14:02,170 [MainThread  ][INFO ]  Initial parameter values: [0.03137753434656543, 0.0761158941722214, -0.023473227598496654, -0.08165582948065458, -0.017965285820286114, -0.045484643783819625, 0.002429280339924622, -0.09924303893622276]
+2019-03-14 19:41:53,515 [MainThread  ][INFO ]  Final fidelity: 0.5112798589307542
+2019-03-14 19:41:53,516 [MainThread  ][INFO ]  Final parameters: [ 0.22849711  0.19738317  0.03609668  0.14252157 -0.07112499  0.13582466
+ -0.00177548 -0.10081149]
+2019-03-14 19:41:53,516 [MainThread  ][INFO ]  Fidelity: 0.5112798589307542
+2019-03-14 19:41:53,517 [MainThread  ][INFO ]  ---- Iteration 366/400
+2019-03-14 19:41:53,518 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.08754442  0.0677111   0.01158191 -0.0948964 ]
+2019-03-14 19:41:53,518 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.63659147869674
+2019-03-14 19:41:53,518 [MainThread  ][INFO ]  Starting optimization for tf=18.63659147869674
+2019-03-14 19:41:53,519 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 19:41:53,519 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 19:41:53,519 [MainThread  ][INFO ]  Initial parameter values: [0.09890922184972842, 0.027987453995707123, 0.0708168212016966, 0.07715825755345371, 0.07319027868586786, -0.04322258753859838, 0.03459635327740357, 0.042890894908416244]
+2019-03-14 20:04:22,977 [MainThread  ][INFO ]  Final fidelity: 0.4589354461199324
+2019-03-14 20:04:22,978 [MainThread  ][INFO ]  Final parameters: [ 0.09929189  0.03478927  0.05499717  0.00208739  0.03745446 -0.02711278
+  0.06653231  0.08008352]
+2019-03-14 20:04:22,978 [MainThread  ][INFO ]  Fidelity: 0.4589354461199324
+2019-03-14 20:04:22,978 [MainThread  ][INFO ]  ---- Iteration 367/400
+2019-03-14 20:04:22,978 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.49329803  0.00551872 -0.35818282  0.33248523]
+2019-03-14 20:04:22,978 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.67669172932331
+2019-03-14 20:04:22,978 [MainThread  ][INFO ]  Starting optimization for tf=18.67669172932331
+2019-03-14 20:04:22,979 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 20:04:22,979 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 20:04:22,979 [MainThread  ][INFO ]  Initial parameter values: [0.09758378094594686, -0.04450895143383826, 0.018279831354692216, 0.06326332018550082, 0.08255968983379888, 0.041701989729218736, -0.037629684790799534, 0.0008574136798770865]
+2019-03-14 20:12:43,411 [MainThread  ][INFO ]  Final fidelity: 0.7259028539500014
+2019-03-14 20:12:43,412 [MainThread  ][INFO ]  Final parameters: [ 0.06548898 -0.00806076  0.02280667  0.07352349  0.12518716 -0.00163862
+ -0.04637321  0.00080389]
+2019-03-14 20:12:43,412 [MainThread  ][INFO ]  Fidelity: 0.7259028539500014
+2019-03-14 20:12:43,412 [MainThread  ][INFO ]  ---- Iteration 368/400
+2019-03-14 20:12:43,413 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.22732649 -0.26025315 -0.21496054 -0.00859786]
+2019-03-14 20:12:43,413 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.716791979949875
+2019-03-14 20:12:43,413 [MainThread  ][INFO ]  Starting optimization for tf=18.716791979949875
+2019-03-14 20:12:43,413 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 20:12:43,413 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 20:12:43,413 [MainThread  ][INFO ]  Initial parameter values: [0.0160875121758854, 0.0907432017086941, 0.0711965534552007, 0.09544620632187106, -0.01148905688581954, -0.06417368983538696, -0.02500562231469257, -0.009350154000676653]
+2019-03-14 20:43:10,161 [MainThread  ][INFO ]  Final fidelity: 0.7681660842023124
+2019-03-14 20:43:10,162 [MainThread  ][INFO ]  Final parameters: [ 0.04086325  0.16817285  0.07701914  0.07007639 -0.11809363  0.03933956
+  0.03387133  0.08149249]
+2019-03-14 20:43:10,162 [MainThread  ][INFO ]  Fidelity: 0.7681660842023124
+2019-03-14 20:43:10,162 [MainThread  ][INFO ]  ---- Iteration 369/400
+2019-03-14 20:43:10,162 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.01905419  0.29898401 -0.36897165  0.47193303]
+2019-03-14 20:43:10,163 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.75689223057644
+2019-03-14 20:43:10,163 [MainThread  ][INFO ]  Starting optimization for tf=18.75689223057644
+2019-03-14 20:43:10,163 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 20:43:10,163 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 20:43:10,163 [MainThread  ][INFO ]  Initial parameter values: [0.06345175005658638, 0.02986056661600972, -0.07693531894295308, 0.05296044647743561, 0.06580633441312955, -0.004826700857882171, -0.08776877941528104, 0.05223012483171982]
+2019-03-14 20:44:38,640 [MainThread  ][INFO ]  Final fidelity: 39601.0
+2019-03-14 20:44:38,641 [MainThread  ][INFO ]  Final parameters: [ 0.06345175  0.02986057 -0.07693532  0.05296045  0.06580633 -0.0048267
+ -0.08776878  0.05223012]
+2019-03-14 20:44:38,641 [MainThread  ][INFO ]  Optimization failed: got a nonphysical fidelity.
+2019-03-14 20:44:38,641 [MainThread  ][INFO ]  Fidelity: 39601.0
+2019-03-14 20:44:38,641 [MainThread  ][INFO ]  ---- Iteration 370/400
+2019-03-14 20:44:38,642 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.21251113  0.19086662  0.4683225   0.27032759]
+2019-03-14 20:44:38,642 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.796992481203006
+2019-03-14 20:44:38,642 [MainThread  ][INFO ]  Starting optimization for tf=18.796992481203006
+2019-03-14 20:44:38,642 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 20:44:38,642 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 20:44:38,642 [MainThread  ][INFO ]  Initial parameter values: [-0.038130811813383625, -0.014155298815360012, -0.09974730660309031, 0.037603019191380094, -0.019911148176541243, 0.017587263433759673, -0.01339304499387095, 0.06766335791221917]
+2019-03-14 21:15:33,394 [MainThread  ][INFO ]  Final fidelity: 0.8000493940145273
+2019-03-14 21:15:33,395 [MainThread  ][INFO ]  Final parameters: [-0.02037593  0.02881121  0.01491869  0.01894821 -0.04787818  0.08476702
+  0.00100251  0.14744309]
+2019-03-14 21:15:33,395 [MainThread  ][INFO ]  Fidelity: 0.8000493940145273
+2019-03-14 21:15:33,395 [MainThread  ][INFO ]  ---- Iteration 371/400
+2019-03-14 21:15:33,396 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.28349835  0.14080113 -0.2287498   0.19184434]
+2019-03-14 21:15:33,396 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.83709273182957
+2019-03-14 21:15:33,396 [MainThread  ][INFO ]  Starting optimization for tf=18.83709273182957
+2019-03-14 21:15:33,396 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 21:15:33,396 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 21:15:33,396 [MainThread  ][INFO ]  Initial parameter values: [-0.014575236815888709, -0.0991200956436572, 0.008436962983785531, -0.028391246211639576, -0.09233104088320217, -0.07307909122032244, -0.08129591633517233, -0.04569757797476211]
+2019-03-14 21:26:52,614 [MainThread  ][INFO ]  Final fidelity: 0.1809477358442888
+2019-03-14 21:26:52,615 [MainThread  ][INFO ]  Final parameters: [-0.03344111 -0.1926344   0.00882262 -0.01418791 -0.15590893  0.17200749
+ -0.24473032 -0.03070331]
+2019-03-14 21:26:52,615 [MainThread  ][INFO ]  Fidelity: 0.1809477358442888
+2019-03-14 21:26:52,615 [MainThread  ][INFO ]  ---- Iteration 372/400
+2019-03-14 21:26:52,616 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.26023865 -0.09627853 -0.34259845  0.15284492]
+2019-03-14 21:26:52,616 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.87719298245614
+2019-03-14 21:26:52,616 [MainThread  ][INFO ]  Starting optimization for tf=18.87719298245614
+2019-03-14 21:26:52,616 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 21:26:52,616 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 21:26:52,616 [MainThread  ][INFO ]  Initial parameter values: [0.09917272166126298, 0.026846177811955307, 0.07429931711351354, 0.021506253347240073, 0.044945154810307, -0.010216894633792828, -0.09414061650053727, 0.08822637643288089]
+2019-03-14 21:38:34,032 [MainThread  ][INFO ]  Final fidelity: 0.506160596209844
+2019-03-14 21:38:34,047 [MainThread  ][INFO ]  Final parameters: [ 0.14046267  0.04504797 -0.04752015  0.02994962  0.03847369 -0.02108058
+ -0.095506    0.05192476]
+2019-03-14 21:38:34,047 [MainThread  ][INFO ]  Fidelity: 0.506160596209844
+2019-03-14 21:38:34,048 [MainThread  ][INFO ]  ---- Iteration 373/400
+2019-03-14 21:38:34,048 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.28139601  0.09606726  0.28695621 -0.15305409]
+2019-03-14 21:38:34,048 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.917293233082706
+2019-03-14 21:38:34,048 [MainThread  ][INFO ]  Starting optimization for tf=18.917293233082706
+2019-03-14 21:38:34,048 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 21:38:34,048 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 21:38:34,048 [MainThread  ][INFO ]  Initial parameter values: [0.0336731997829981, 0.08275937990717944, -0.040687774961121394, -0.017274756509639416, 0.07853420940300496, 0.057370099888487014, -0.00530394791710205, 0.008070462079817167]
+2019-03-14 21:41:31,558 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:41:33,675 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:41:52,034 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:42:26,283 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:42:47,035 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:46:18,540 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:46:50,431 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:46:52,606 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:46:58,512 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:00,646 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:05,356 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:25,087 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:28,679 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:30,838 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:32,929 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:35,082 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:37,265 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:39,552 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:41,700 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:45,024 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:47,151 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:49,247 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:51,384 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:53,532 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:55,714 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:47:57,899 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:00,077 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:03,539 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:05,741 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:07,903 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:10,043 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:12,196 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:14,419 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:16,534 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:18,691 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:20,822 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:23,004 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:25,236 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:27,467 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:29,719 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:31,899 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:34,099 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:36,272 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:38,477 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:40,660 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:42,826 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:44,988 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:47,181 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:49,348 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:51,551 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:53,679 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:55,857 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:48:58,068 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:00,267 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:02,436 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:04,575 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:06,751 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:09,022 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:11,227 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:13,324 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:15,591 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:17,749 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:19,860 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:22,029 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:24,279 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:26,469 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:28,588 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:30,799 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:32,955 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:35,215 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:37,412 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:39,538 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:41,778 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:43,968 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:46,174 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:48,455 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:50,659 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:52,883 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:55,074 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:57,269 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:49:59,461 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:01,658 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:03,896 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:06,118 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:08,271 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:10,408 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:12,580 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:14,706 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:16,839 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:18,902 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:21,027 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:23,178 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:25,338 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:27,573 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:29,739 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:31,923 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:34,007 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:36,169 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:38,288 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:40,410 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:42,580 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:44,741 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:46,883 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:49,022 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:51,211 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:53,340 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:55,466 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:57,616 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:50:59,819 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:01,941 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:04,092 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:06,196 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:08,338 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:10,467 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:12,630 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:14,767 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:18,125 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:20,252 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:22,539 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:24,706 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:28,145 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:30,269 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:32,415 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:34,508 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:36,584 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:38,750 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:40,969 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:43,069 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:45,172 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:47,341 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:49,507 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:51,584 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:53,697 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:57,101 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:51:59,264 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:01,404 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:03,525 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:05,594 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:07,730 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:09,903 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:12,091 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:14,238 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:16,386 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:18,541 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:23,266 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:25,452 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:27,598 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:29,773 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:31,920 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:35,295 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:37,516 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:40,965 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:43,105 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:45,272 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:47,503 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:49,658 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:53,018 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:55,268 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:57,440 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:52:59,609 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:01,783 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:03,883 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:06,057 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:08,284 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:11,623 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:13,860 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:16,041 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:18,147 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:20,415 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:22,636 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:24,789 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:26,967 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:29,078 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:31,202 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:33,291 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:35,391 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:37,503 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:39,714 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:41,913 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:44,095 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:46,226 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:48,387 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:50,545 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:52,696 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:54,838 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:56,988 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:53:59,161 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:01,288 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:03,419 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:05,605 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:07,775 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:09,896 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:12,039 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:14,190 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:16,331 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:18,427 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:20,527 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:22,618 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:24,705 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:26,815 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:28,963 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:31,129 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:33,209 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:35,365 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:37,487 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:39,653 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:41,821 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:43,983 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:46,205 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:48,373 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:50,502 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:52,655 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:54,837 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:56,949 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:54:58,992 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:01,162 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:03,342 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:05,478 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:07,664 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:09,819 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:11,997 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:14,177 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:16,340 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:18,500 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:20,596 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:22,794 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:25,001 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:27,143 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:29,277 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:31,467 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:33,644 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:35,821 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:37,915 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:40,143 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:42,260 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:44,342 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:46,546 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:48,692 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:50,885 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-14 21:55:52,116 [MainThread  ][INFO ]  Final fidelity: 0.47740946413218843
+2019-03-14 21:55:52,116 [MainThread  ][INFO ]  Final parameters: [ 0.04314688  0.13472728 -0.0513075  -0.01340557  0.06920917 -0.07614227
+ -0.00731376  0.01986303]
+2019-03-14 21:55:52,116 [MainThread  ][INFO ]  Fidelity: 0.47740946413218843
+2019-03-14 21:55:52,116 [MainThread  ][INFO ]  ---- Iteration 374/400
+2019-03-14 21:55:52,117 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.19567236  0.21927231  0.46267881 -0.41113427]
+2019-03-14 21:55:52,117 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.95739348370927
+2019-03-14 21:55:52,117 [MainThread  ][INFO ]  Starting optimization for tf=18.95739348370927
+2019-03-14 21:55:52,117 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 21:55:52,117 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 21:55:52,117 [MainThread  ][INFO ]  Initial parameter values: [0.04896151465676388, -0.05596898090501117, 0.021700575899958705, -0.07112299907359282, 0.09946447062997402, 0.003409804142931794, 0.08083090334842191, 0.06289565535663116]
+2019-03-14 21:56:58,301 [MainThread  ][INFO ]  Final fidelity: 39601.0
+2019-03-14 21:56:58,302 [MainThread  ][INFO ]  Final parameters: [ 0.04896151 -0.05596898  0.02170058 -0.071123    0.09946447  0.0034098
+  0.0808309   0.06289566]
+2019-03-14 21:56:58,302 [MainThread  ][INFO ]  Optimization failed: got a nonphysical fidelity.
+2019-03-14 21:56:58,302 [MainThread  ][INFO ]  Fidelity: 39601.0
+2019-03-14 21:56:58,302 [MainThread  ][INFO ]  ---- Iteration 375/400
+2019-03-14 21:56:58,303 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.42701981  0.48520174  0.29237602 -0.47839625]
+2019-03-14 21:56:58,303 [MainThread  ][DEBUG]  Setting hyperparameter tf=18.99749373433584
+2019-03-14 21:56:58,303 [MainThread  ][INFO ]  Starting optimization for tf=18.99749373433584
+2019-03-14 21:56:58,303 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 21:56:58,303 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 21:56:58,303 [MainThread  ][INFO ]  Initial parameter values: [-0.026440131296946556, 0.00428078921433965, -0.0018353208655373238, -0.07137031959315501, -0.01995833219294388, -0.03238379808106151, -0.03814308415219961, 0.022436866486073043]
+2019-03-14 22:09:09,935 [MainThread  ][INFO ]  Final fidelity: 0.2705601174186197
+2019-03-14 22:09:09,936 [MainThread  ][INFO ]  Final parameters: [-0.02617601 -0.00767814  0.00122565 -0.09120248 -0.03635801 -0.01054718
+ -0.06968276  0.06777455]
+2019-03-14 22:09:09,936 [MainThread  ][INFO ]  Fidelity: 0.2705601174186197
+2019-03-14 22:09:09,936 [MainThread  ][INFO ]  ---- Iteration 376/400
+2019-03-14 22:09:09,936 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.33502746 -0.33139546  0.33653597  0.11029415]
+2019-03-14 22:09:09,936 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.037593984962406
+2019-03-14 22:09:09,936 [MainThread  ][INFO ]  Starting optimization for tf=19.037593984962406
+2019-03-14 22:09:09,937 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 22:09:09,937 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 22:09:09,937 [MainThread  ][INFO ]  Initial parameter values: [-0.06646976604369573, -0.020660183555974543, 0.07469426234955026, -0.08423559130207042, -0.012039412459074403, 0.0707411920343047, -0.03590523311714165, -0.08793034109161209]
+2019-03-14 22:25:27,493 [MainThread  ][INFO ]  Final fidelity: 0.8127186455388367
+2019-03-14 22:25:27,493 [MainThread  ][INFO ]  Final parameters: [-0.05896479  0.03298624  0.06998622 -0.17804491 -0.06257573  0.04693479
+  0.02088218 -0.06530368]
+2019-03-14 22:25:27,494 [MainThread  ][INFO ]  Fidelity: 0.8127186455388367
+2019-03-14 22:25:27,494 [MainThread  ][INFO ]  ---- Iteration 377/400
+2019-03-14 22:25:27,494 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.41408623 -0.14024985 -0.14905257  0.44008704]
+2019-03-14 22:25:27,494 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.07769423558897
+2019-03-14 22:25:27,494 [MainThread  ][INFO ]  Starting optimization for tf=19.07769423558897
+2019-03-14 22:25:27,494 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 22:25:27,494 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 22:25:27,494 [MainThread  ][INFO ]  Initial parameter values: [-0.03207672499181442, -0.08515038587838729, 0.04245433908509083, 0.015527044803413756, -0.032585215908414636, 0.04132255387058931, 0.07969214449254317, 0.03468400473249614]
+2019-03-14 22:34:30,702 [MainThread  ][INFO ]  Final fidelity: 0.1278329478125859
+2019-03-14 22:34:30,709 [MainThread  ][INFO ]  Final parameters: [-0.02790154 -0.12075724  0.04258361  0.0128467  -0.03898025  0.0409762
+  0.09756674  0.05168889]
+2019-03-14 22:34:30,709 [MainThread  ][INFO ]  Fidelity: 0.1278329478125859
+2019-03-14 22:34:30,709 [MainThread  ][INFO ]  ---- Iteration 378/400
+2019-03-14 22:34:30,710 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.14184484  0.07785633 -0.04823783 -0.38874983]
+2019-03-14 22:34:30,710 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.117794486215537
+2019-03-14 22:34:30,710 [MainThread  ][INFO ]  Starting optimization for tf=19.117794486215537
+2019-03-14 22:34:30,710 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 22:34:30,710 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 22:34:30,710 [MainThread  ][INFO ]  Initial parameter values: [0.02754262692797299, 0.005561898576196531, 0.0404442761961783, -0.06961720633109247, -0.06259931901890237, 0.02945604586578715, 0.03189230462362058, 0.09361000570232444]
+2019-03-14 22:50:09,352 [MainThread  ][INFO ]  Final fidelity: 0.5977172496448326
+2019-03-14 22:50:09,353 [MainThread  ][INFO ]  Final parameters: [ 0.06296741  0.00535284  0.02937225 -0.05596294 -0.02781469  0.06087044
+  0.02457746  0.07958073]
+2019-03-14 22:50:09,353 [MainThread  ][INFO ]  Fidelity: 0.5977172496448326
+2019-03-14 22:50:09,353 [MainThread  ][INFO ]  ---- Iteration 379/400
+2019-03-14 22:50:09,353 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.3326734  -0.46554754 -0.44513883 -0.21006177]
+2019-03-14 22:50:09,353 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.157894736842103
+2019-03-14 22:50:09,353 [MainThread  ][INFO ]  Starting optimization for tf=19.157894736842103
+2019-03-14 22:50:09,353 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 22:50:09,353 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 22:50:09,353 [MainThread  ][INFO ]  Initial parameter values: [0.030209061211496746, -0.08804698949671926, -0.04430137595405197, 0.09745087433292635, 0.07572674074319305, 0.07076324948077889, -0.08935714714964274, -0.03296133415384413]
+2019-03-14 22:56:55,204 [MainThread  ][INFO ]  Final fidelity: 0.33707265033348544
+2019-03-14 22:56:55,205 [MainThread  ][INFO ]  Final parameters: [ 0.03603537 -0.10443573 -0.02681451  0.07627517  0.10208585  0.02113866
+ -0.13124507 -0.04045602]
+2019-03-14 22:56:55,205 [MainThread  ][INFO ]  Fidelity: 0.33707265033348544
+2019-03-14 22:56:55,205 [MainThread  ][INFO ]  ---- Iteration 380/400
+2019-03-14 22:56:55,206 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.28067082  0.35790526  0.27118471 -0.05882816]
+2019-03-14 22:56:55,206 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.19799498746867
+2019-03-14 22:56:55,206 [MainThread  ][INFO ]  Starting optimization for tf=19.19799498746867
+2019-03-14 22:56:55,206 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 22:56:55,206 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 22:56:55,206 [MainThread  ][INFO ]  Initial parameter values: [-0.05078949740504573, 0.05950566572975491, 0.06893094578031736, 0.0880956654565904, 0.07456412504436127, -0.014090335262697248, -0.0682914326649608, -0.05775401398857012]
+2019-03-14 23:10:16,147 [MainThread  ][INFO ]  Final fidelity: 0.48704869541294676
+2019-03-14 23:10:16,148 [MainThread  ][INFO ]  Final parameters: [-0.05676923  0.08605684  0.04334826  0.10441928  0.08350244 -0.01618794
+ -0.13997817  0.00811759]
+2019-03-14 23:10:16,148 [MainThread  ][INFO ]  Fidelity: 0.48704869541294676
+2019-03-14 23:10:16,148 [MainThread  ][INFO ]  ---- Iteration 381/400
+2019-03-14 23:10:16,149 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.03124609  0.18006938  0.06138418 -0.08688328]
+2019-03-14 23:10:16,149 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.238095238095237
+2019-03-14 23:10:16,149 [MainThread  ][INFO ]  Starting optimization for tf=19.238095238095237
+2019-03-14 23:10:16,149 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 23:10:16,149 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 23:10:16,149 [MainThread  ][INFO ]  Initial parameter values: [0.055812520227566886, 0.07666109635382709, -0.058750028009232305, 0.0653111936979359, 0.01932303486441475, 0.06385875623176387, -0.041155400579264506, 0.0176437623700674]
+2019-03-14 23:11:23,008 [MainThread  ][INFO ]  Final fidelity: 39601.0
+2019-03-14 23:11:23,008 [MainThread  ][INFO ]  Final parameters: [ 0.05581252  0.0766611  -0.05875003  0.06531119  0.01932303  0.06385876
+ -0.0411554   0.01764376]
+2019-03-14 23:11:23,008 [MainThread  ][INFO ]  Optimization failed: got a nonphysical fidelity.
+2019-03-14 23:11:23,008 [MainThread  ][INFO ]  Fidelity: 39601.0
+2019-03-14 23:11:23,009 [MainThread  ][INFO ]  ---- Iteration 382/400
+2019-03-14 23:11:23,009 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.46562527 -0.2765422   0.49309142 -0.31136674]
+2019-03-14 23:11:23,009 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.278195488721803
+2019-03-14 23:11:23,009 [MainThread  ][INFO ]  Starting optimization for tf=19.278195488721803
+2019-03-14 23:11:23,009 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 23:11:23,009 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 23:11:23,009 [MainThread  ][INFO ]  Initial parameter values: [0.011183777834669797, -0.03701656043710182, 0.02402077772969609, 0.04520463232009839, 0.04563082858336659, 0.09682228138192384, 0.043609064949726356, -0.06469073384793485]
+2019-03-14 23:22:51,760 [MainThread  ][INFO ]  Final fidelity: 0.6003626415076397
+2019-03-14 23:22:51,761 [MainThread  ][INFO ]  Final parameters: [ 0.01066475 -0.04466783  0.00402069  0.05434955  0.04930547  0.10383293
+  0.05258903 -0.07060907]
+2019-03-14 23:22:51,761 [MainThread  ][INFO ]  Fidelity: 0.6003626415076397
+2019-03-14 23:22:51,761 [MainThread  ][INFO ]  ---- Iteration 383/400
+2019-03-14 23:22:51,762 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.09083062  0.26256999 -0.41815414 -0.14758906]
+2019-03-14 23:22:51,762 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.318295739348372
+2019-03-14 23:22:51,762 [MainThread  ][INFO ]  Starting optimization for tf=19.318295739348372
+2019-03-14 23:22:51,762 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 23:22:51,762 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 23:22:51,762 [MainThread  ][INFO ]  Initial parameter values: [0.011647659532811924, 0.018814730255603027, -0.0372698108148487, 0.08532311096011408, 0.050295868855004144, -0.000823221741095323, -0.026511766407093504, -0.017051912562601038]
+2019-03-14 23:26:20,384 [MainThread  ][INFO ]  Final fidelity: 0.07850020719852463
+2019-03-14 23:26:20,385 [MainThread  ][INFO ]  Final parameters: [ 0.00515094  0.02206271 -0.04369705  0.09012615  0.05434663 -0.00073856
+ -0.03084268 -0.01771743]
+2019-03-14 23:26:20,385 [MainThread  ][INFO ]  Fidelity: 0.07850020719852463
+2019-03-14 23:26:20,385 [MainThread  ][INFO ]  ---- Iteration 384/400
+2019-03-14 23:26:20,385 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.24613323 -0.09967581  0.47617473 -0.10995617]
+2019-03-14 23:26:20,385 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.358395989974937
+2019-03-14 23:26:20,385 [MainThread  ][INFO ]  Starting optimization for tf=19.358395989974937
+2019-03-14 23:26:20,386 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 23:26:20,386 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 23:26:20,386 [MainThread  ][INFO ]  Initial parameter values: [-0.031093523043233054, -0.013264747795330573, 0.009655926344444857, -0.07659717895227257, -0.061605374275409776, -0.07533084107748658, -0.01627874855417813, -0.08865912443212265]
+2019-03-14 23:46:20,385 [MainThread  ][INFO ]  Final fidelity: 0.7343695736068045
+2019-03-14 23:46:20,399 [MainThread  ][INFO ]  Final parameters: [-0.06910342 -0.00603713 -0.01568556  0.02848265 -0.12069766 -0.17099516
+ -0.05744534 -0.08275688]
+2019-03-14 23:46:20,399 [MainThread  ][INFO ]  Fidelity: 0.7343695736068045
+2019-03-14 23:46:20,399 [MainThread  ][INFO ]  ---- Iteration 385/400
+2019-03-14 23:46:20,399 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.41312407  0.03795346  0.25715412  0.1014418 ]
+2019-03-14 23:46:20,399 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.398496240601503
+2019-03-14 23:46:20,400 [MainThread  ][INFO ]  Starting optimization for tf=19.398496240601503
+2019-03-14 23:46:20,400 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 23:46:20,400 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 23:46:20,400 [MainThread  ][INFO ]  Initial parameter values: [-0.08364815523743421, 0.09766220682755039, -0.08270946400603243, -0.013405880657461691, 0.029835466329211663, -0.06471863025351512, -0.02059793582070442, -0.040524054259366164]
+2019-03-14 23:55:12,989 [MainThread  ][INFO ]  Final fidelity: 0.5978033710059154
+2019-03-14 23:55:12,990 [MainThread  ][INFO ]  Final parameters: [-0.10868086  0.09813321 -0.07969007 -0.01311858  0.02186671 -0.05071218
+ -0.01932676 -0.0547567 ]
+2019-03-14 23:55:12,990 [MainThread  ][INFO ]  Fidelity: 0.5978033710059154
+2019-03-14 23:55:12,990 [MainThread  ][INFO ]  ---- Iteration 386/400
+2019-03-14 23:55:12,991 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.09424498  0.06908995  0.43054335 -0.28878324]
+2019-03-14 23:55:12,991 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.43859649122807
+2019-03-14 23:55:12,991 [MainThread  ][INFO ]  Starting optimization for tf=19.43859649122807
+2019-03-14 23:55:12,991 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-14 23:55:12,991 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-14 23:55:12,991 [MainThread  ][INFO ]  Initial parameter values: [-0.07127845154265772, -0.0327889704589375, -0.057818402008990716, 0.037186386523841514, 0.00310033109172507, -0.09091533311819147, -0.006051285105535681, -0.018806920106224867]
+2019-03-15 00:05:49,299 [MainThread  ][INFO ]  Final fidelity: 0.7006074947248625
+2019-03-15 00:05:49,300 [MainThread  ][INFO ]  Final parameters: [-0.11079227 -0.08191463 -0.07366033  0.05404519 -0.00207614 -0.00574269
+ -0.00537291 -0.0503343 ]
+2019-03-15 00:05:49,300 [MainThread  ][INFO ]  Fidelity: 0.7006074947248625
+2019-03-15 00:05:49,300 [MainThread  ][INFO ]  ---- Iteration 387/400
+2019-03-15 00:05:49,300 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.04863831  0.34619631  0.28022487 -0.31384263]
+2019-03-15 00:05:49,301 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.478696741854634
+2019-03-15 00:05:49,301 [MainThread  ][INFO ]  Starting optimization for tf=19.478696741854634
+2019-03-15 00:05:49,301 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 00:05:49,301 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 00:05:49,301 [MainThread  ][INFO ]  Initial parameter values: [-0.002155552138500244, -0.027103931900963565, -0.01620514335155257, 0.049161653089370594, 0.033577919319312255, -0.04128582679896953, 0.02567565567056887, 0.057291527246483925]
+2019-03-15 00:31:26,347 [MainThread  ][INFO ]  Final fidelity: 0.8705473670842273
+2019-03-15 00:31:26,348 [MainThread  ][INFO ]  Final parameters: [-0.01723383 -0.11288031 -0.00069284  0.17357554  0.04072802 -0.13747874
+  0.01842405  0.10778815]
+2019-03-15 00:31:26,348 [MainThread  ][INFO ]  Fidelity: 0.8705473670842273
+2019-03-15 00:31:26,348 [MainThread  ][INFO ]  ---- Iteration 388/400
+2019-03-15 00:31:26,349 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.10726662  0.30916516 -0.00382253  0.09402584]
+2019-03-15 00:31:26,349 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.518796992481203
+2019-03-15 00:31:26,349 [MainThread  ][INFO ]  Starting optimization for tf=19.518796992481203
+2019-03-15 00:31:26,349 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 00:31:26,349 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 00:31:26,349 [MainThread  ][INFO ]  Initial parameter values: [0.018282039074384665, 0.02316756328927161, 0.05134799308605323, 0.008387647976278334, -0.04327424178194799, -0.08333393477610188, -0.03804446924489731, -0.09136725668486981]
+2019-03-15 00:53:06,297 [MainThread  ][INFO ]  Final fidelity: 0.35614372202115435
+2019-03-15 00:53:06,298 [MainThread  ][INFO ]  Final parameters: [ 0.02664058  0.02879669  0.05412093  0.00453321 -0.10867451  0.02056738
+ -0.08793448 -0.03952071]
+2019-03-15 00:53:06,298 [MainThread  ][INFO ]  Fidelity: 0.35614372202115435
+2019-03-15 00:53:06,298 [MainThread  ][INFO ]  ---- Iteration 389/400
+2019-03-15 00:53:06,298 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.24555552  0.22857276 -0.15003356 -0.01333766]
+2019-03-15 00:53:06,298 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.55889724310777
+2019-03-15 00:53:06,298 [MainThread  ][INFO ]  Starting optimization for tf=19.55889724310777
+2019-03-15 00:53:06,298 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 00:53:06,299 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 00:53:06,299 [MainThread  ][INFO ]  Initial parameter values: [0.08473551937851656, -0.0975469420232918, 0.006294578178317661, -0.07230324830105223, 0.00429077706865455, -0.0988431739716073, -0.05685291435322948, -0.07904151546322763]
+2019-03-15 00:53:15,628 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 00:53:29,795 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 00:53:43,698 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 00:53:54,264 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 00:53:56,367 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 01:00:34,637 [MainThread  ][INFO ]  Final fidelity: 0.7655802643787039
+2019-03-15 01:00:34,638 [MainThread  ][INFO ]  Final parameters: [ 0.06819692 -0.06279908  0.01206092 -0.06080522  0.00517272 -0.02374623
+ -0.05290059 -0.08095717]
+2019-03-15 01:00:34,638 [MainThread  ][INFO ]  Fidelity: 0.7655802643787039
+2019-03-15 01:00:34,638 [MainThread  ][INFO ]  ---- Iteration 390/400
+2019-03-15 01:00:34,638 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.30849672 0.35956743 0.04897774 0.32979419]
+2019-03-15 01:00:34,639 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.598997493734334
+2019-03-15 01:00:34,639 [MainThread  ][INFO ]  Starting optimization for tf=19.598997493734334
+2019-03-15 01:00:34,639 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 01:00:34,639 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 01:00:34,639 [MainThread  ][INFO ]  Initial parameter values: [0.08174329583985146, -0.03625738377517572, 0.06302889557197819, -0.038630564129329414, -0.0026501058380728193, -0.03032902118874206, 0.060248220891103654, 0.08726666095704827]
+2019-03-15 01:09:44,900 [MainThread  ][INFO ]  Final fidelity: 0.34625061625841835
+2019-03-15 01:09:44,907 [MainThread  ][INFO ]  Final parameters: [ 0.06324836 -0.06010913  0.08826202 -0.04763243 -0.00235178 -0.0588762
+  0.01173989  0.09591151]
+2019-03-15 01:09:44,907 [MainThread  ][INFO ]  Fidelity: 0.34625061625841835
+2019-03-15 01:09:44,907 [MainThread  ][INFO ]  ---- Iteration 391/400
+2019-03-15 01:09:44,907 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.24794242  0.15521628 -0.16456705  0.30051341]
+2019-03-15 01:09:44,908 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.639097744360903
+2019-03-15 01:09:44,908 [MainThread  ][INFO ]  Starting optimization for tf=19.639097744360903
+2019-03-15 01:09:44,908 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 01:09:44,908 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 01:09:44,908 [MainThread  ][INFO ]  Initial parameter values: [-0.02051765994020127, 0.050103083837269774, 0.07361733113471033, -0.07255569052777651, 0.0030636105728708146, 0.035631179415858305, 0.06330044185993991, 0.08753997796592172]
+2019-03-15 01:23:56,549 [MainThread  ][INFO ]  Final fidelity: 0.5159477826735602
+2019-03-15 01:23:56,550 [MainThread  ][INFO ]  Final parameters: [-0.00935906  0.07079802  0.07870587 -0.10581544  0.00255592  0.00968414
+  0.11153592  0.03649713]
+2019-03-15 01:23:56,550 [MainThread  ][INFO ]  Fidelity: 0.5159477826735602
+2019-03-15 01:23:56,550 [MainThread  ][INFO ]  ---- Iteration 392/400
+2019-03-15 01:23:56,550 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.04630228 -0.05635303  0.45119468 -0.44406478]
+2019-03-15 01:23:56,550 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.67919799498747
+2019-03-15 01:23:56,550 [MainThread  ][INFO ]  Starting optimization for tf=19.67919799498747
+2019-03-15 01:23:56,551 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 01:23:56,551 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 01:23:56,551 [MainThread  ][INFO ]  Initial parameter values: [0.011526812845678552, -0.032962316495849506, 0.06386582001779717, -0.08386947604211169, -0.08363981683914652, -0.07998529547925282, -0.06569783118443093, -0.0659721418127005]
+2019-03-15 01:46:23,487 [MainThread  ][INFO ]  Final fidelity: 0.7892556090362113
+2019-03-15 01:46:23,488 [MainThread  ][INFO ]  Final parameters: [-0.00024806  0.01101744 -0.00582143 -0.19984506 -0.12420401  0.01091289
+ -0.09663522  0.01114969]
+2019-03-15 01:46:23,488 [MainThread  ][INFO ]  Fidelity: 0.7892556090362113
+2019-03-15 01:46:23,488 [MainThread  ][INFO ]  ---- Iteration 393/400
+2019-03-15 01:46:23,488 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.48914738 -0.12190522  0.13760127 -0.37633482]
+2019-03-15 01:46:23,488 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.719298245614034
+2019-03-15 01:46:23,489 [MainThread  ][INFO ]  Starting optimization for tf=19.719298245614034
+2019-03-15 01:46:23,489 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 01:46:23,489 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 01:46:23,489 [MainThread  ][INFO ]  Initial parameter values: [0.06110121154419107, 0.05204066378565311, 0.012683989157829825, -0.07403032964906478, 0.06941728457678567, -0.04141064580157368, -0.09219676976511676, 0.08477470055988115]
+2019-03-15 01:52:27,431 [MainThread  ][INFO ]  Final fidelity: 0.049275064728910564
+2019-03-15 01:52:27,431 [MainThread  ][INFO ]  Final parameters: [ 0.03220145  0.09925838  0.01812174 -0.1270534   0.06811744 -0.01995403
+  0.00852843  0.11806539]
+2019-03-15 01:52:27,431 [MainThread  ][INFO ]  Fidelity: 0.049275064728910564
+2019-03-15 01:52:27,431 [MainThread  ][INFO ]  ---- Iteration 394/400
+2019-03-15 01:52:27,432 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.40560837 -0.4517861   0.16515468  0.33405465]
+2019-03-15 01:52:27,432 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.7593984962406
+2019-03-15 01:52:27,432 [MainThread  ][INFO ]  Starting optimization for tf=19.7593984962406
+2019-03-15 01:52:27,432 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 01:52:27,432 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 01:52:27,432 [MainThread  ][INFO ]  Initial parameter values: [0.06000761169090382, -0.0709762156831594, -0.07820297641349848, 0.06093155934261199, 0.023605237340650745, 0.07153833258758904, 0.04693885905208611, -0.05573321156470115]
+2019-03-15 02:04:43,719 [MainThread  ][INFO ]  Final fidelity: 0.0746616466935711
+2019-03-15 02:04:43,720 [MainThread  ][INFO ]  Final parameters: [ 0.03028635 -0.11087474 -0.07446975  0.05051821  0.03372144 -0.00063503
+  0.05357089 -0.08014112]
+2019-03-15 02:04:43,720 [MainThread  ][INFO ]  Fidelity: 0.0746616466935711
+2019-03-15 02:04:43,720 [MainThread  ][INFO ]  ---- Iteration 395/400
+2019-03-15 02:04:43,721 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.33201839  0.31936531 -0.106402    0.11892307]
+2019-03-15 02:04:43,721 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.799498746867165
+2019-03-15 02:04:43,721 [MainThread  ][INFO ]  Starting optimization for tf=19.799498746867165
+2019-03-15 02:04:43,721 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 02:04:43,721 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 02:04:43,721 [MainThread  ][INFO ]  Initial parameter values: [-0.0065202186566378495, -0.028890732204802053, -0.010664668477550765, -0.053472373567327196, 0.0011802129457886001, -0.05150250473607825, -0.013214530978076094, 0.07059996767457413]
+2019-03-15 02:12:45,890 [MainThread  ][INFO ]  Final fidelity: 0.5386105814559786
+2019-03-15 02:12:45,891 [MainThread  ][INFO ]  Final parameters: [-0.00924728  0.00179833 -0.00846384 -0.0084787   0.00124092 -0.08750017
+ -0.01662224  0.09002783]
+2019-03-15 02:12:45,891 [MainThread  ][INFO ]  Fidelity: 0.5386105814559786
+2019-03-15 02:12:45,891 [MainThread  ][INFO ]  ---- Iteration 396/400
+2019-03-15 02:12:45,892 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.41849006  0.14397365 -0.3993724   0.22797451]
+2019-03-15 02:12:45,892 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.839598997493734
+2019-03-15 02:12:45,892 [MainThread  ][INFO ]  Starting optimization for tf=19.839598997493734
+2019-03-15 02:12:45,892 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 02:12:45,892 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 02:12:45,892 [MainThread  ][INFO ]  Initial parameter values: [0.03113499245795001, -0.03292813270367481, -0.07504691826351571, -0.0012731536128092191, -0.07889722706032161, -0.06760154219766928, -0.031106633936548916, 0.026827584895644796]
+2019-03-15 02:22:11,769 [MainThread  ][INFO ]  Final fidelity: 0.43588901304915
+2019-03-15 02:22:11,770 [MainThread  ][INFO ]  Final parameters: [ 0.03208635 -0.00242085 -0.13493509 -0.00278905 -0.13376446  0.00351456
+ -0.01223543  0.00027852]
+2019-03-15 02:22:11,770 [MainThread  ][INFO ]  Fidelity: 0.43588901304915
+2019-03-15 02:22:11,770 [MainThread  ][INFO ]  ---- Iteration 397/400
+2019-03-15 02:22:11,770 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[-0.02473084  0.15849232  0.36225765 -0.13619402]
+2019-03-15 02:22:11,770 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.8796992481203
+2019-03-15 02:22:11,771 [MainThread  ][INFO ]  Starting optimization for tf=19.8796992481203
+2019-03-15 02:22:11,771 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 02:22:11,771 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 02:22:11,771 [MainThread  ][INFO ]  Initial parameter values: [-0.08709320181676167, 0.06638131361811947, 0.03347920817498787, -0.05245232337721511, 0.004858478799138283, -0.035192191051817326, 0.09051307971743858, -0.0027353444769341734]
+2019-03-15 02:30:23,787 [MainThread  ][INFO ]  Final fidelity: 0.28875048030518075
+2019-03-15 02:30:23,787 [MainThread  ][INFO ]  Final parameters: [-0.09760699  0.05618263  0.0429253  -0.06064903  0.00542899 -0.01566556
+  0.1216049  -0.00216206]
+2019-03-15 02:30:23,787 [MainThread  ][INFO ]  Fidelity: 0.28875048030518075
+2019-03-15 02:30:23,787 [MainThread  ][INFO ]  ---- Iteration 398/400
+2019-03-15 02:30:23,788 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[0.41825225 0.00745534 0.22643486 0.04582722]
+2019-03-15 02:30:23,788 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.919799498746865
+2019-03-15 02:30:23,788 [MainThread  ][INFO ]  Starting optimization for tf=19.919799498746865
+2019-03-15 02:30:23,788 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 02:30:23,788 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 02:30:23,788 [MainThread  ][INFO ]  Initial parameter values: [-0.05746069083337893, 0.07340874049133683, 0.08452669798033205, 0.012162875688719058, -0.08678464809979924, 0.03447085057388716, -0.09001066647185314, -0.05342061249403545]
+2019-03-15 02:31:34,925 [MainThread  ][INFO ]  Final fidelity: 39601.0
+2019-03-15 02:31:34,926 [MainThread  ][INFO ]  Final parameters: [-0.05746069  0.07340874  0.0845267   0.01216288 -0.08678465  0.03447085
+ -0.09001067 -0.05342061]
+2019-03-15 02:31:34,926 [MainThread  ][INFO ]  Optimization failed: got a nonphysical fidelity.
+2019-03-15 02:31:34,926 [MainThread  ][INFO ]  Fidelity: 39601.0
+2019-03-15 02:31:34,926 [MainThread  ][INFO ]  ---- Iteration 399/400
+2019-03-15 02:31:34,927 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.36355493 -0.1320587   0.41102014  0.31562824]
+2019-03-15 02:31:34,927 [MainThread  ][DEBUG]  Setting hyperparameter tf=19.959899749373434
+2019-03-15 02:31:34,927 [MainThread  ][INFO ]  Starting optimization for tf=19.959899749373434
+2019-03-15 02:31:34,927 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 02:31:34,927 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 02:31:34,927 [MainThread  ][INFO ]  Initial parameter values: [-0.05647797621260114, -0.09110386179019891, 0.08688777576885728, -0.09164527861204973, -0.0048391138478397905, 0.09130998136250501, 0.06570757487442938, 0.06840461412064655]
+2019-03-15 02:31:35,906 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:38,170 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:40,456 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:42,738 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:44,997 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:47,256 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:49,554 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:51,833 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:54,097 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:56,392 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:31:58,665 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:00,941 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:03,217 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:05,500 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:07,757 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:10,029 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:12,305 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:14,579 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:16,834 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:19,110 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:21,376 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:23,778 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:26,099 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:28,444 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:30,757 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:33,113 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:35,363 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:37,647 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:39,917 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:42,269 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:44,597 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:46,946 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:49,311 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:51,620 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:53,950 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:56,328 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:32:58,675 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:00,997 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:03,321 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:05,667 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:07,999 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:10,320 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:12,667 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:15,040 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:17,393 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:19,713 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:22,060 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:24,397 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:26,756 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:29,081 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:31,434 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:33,777 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:36,111 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:38,459 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:40,804 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:43,154 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:45,491 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:47,839 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:50,193 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:52,539 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:54,872 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:57,202 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:33:59,574 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:34:01,884 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:34:04,216 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:34:06,558 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:34:08,918 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:34:11,248 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:34:13,616 [MainThread  ][INFO ]  The ODE solver seems to have got stuck. Trying to double the number of time steps.
+2019-03-15 02:34:14,958 [MainThread  ][INFO ]  Final fidelity: 39601.0
+2019-03-15 02:34:14,958 [MainThread  ][INFO ]  Final parameters: [-0.05647798 -0.09110386  0.08688778 -0.09164528 -0.00483911  0.09130998
+  0.06570757  0.06840461]
+2019-03-15 02:34:14,958 [MainThread  ][INFO ]  Optimization failed: got a nonphysical fidelity.
+2019-03-15 02:34:14,958 [MainThread  ][INFO ]  Fidelity: 39601.0
+2019-03-15 02:34:14,958 [MainThread  ][INFO ]  ---- Iteration 400/400
+2019-03-15 02:34:14,959 [MainThread  ][DEBUG]  Regenerated CRAB frequencies: nuk=[ 0.49862279 -0.46767787  0.02781103  0.43516372]
+2019-03-15 02:34:14,959 [MainThread  ][DEBUG]  Setting hyperparameter tf=20.0
+2019-03-15 02:34:14,959 [MainThread  ][INFO ]  Starting optimization for tf=20.0
+2019-03-15 02:34:14,959 [MainThread  ][DEBUG]  Optimization method: Nelder-Mead
+2019-03-15 02:34:14,959 [MainThread  ][DEBUG]  Optimization options: None
+2019-03-15 02:34:14,959 [MainThread  ][INFO ]  Initial parameter values: [0.03635838094760563, 0.03768124892114824, -0.034609423442699974, 0.08885642136884106, 0.060544181044924816, -0.026451771269908636, 0.06104567337269248, -0.012575445236015365]
+2019-03-15 02:42:02,442 [MainThread  ][INFO ]  Final fidelity: 0.38975931529655444
+2019-03-15 02:42:02,443 [MainThread  ][INFO ]  Final parameters: [ 0.03200332  0.04174593 -0.01790616  0.08661756  0.07388649 -0.04263105
+  0.06099941 -0.01191896]
+2019-03-15 02:42:02,443 [MainThread  ][INFO ]  Fidelity: 0.38975931529655444
