@@ -19,6 +19,7 @@ import scipy
 
 import src.rabi_model as rabi_model
 import src.lmg_model as lmg_model
+import src.lz_model as lz_model
 from src.hamiltonians import TimeDependentHamiltonian
 from src.utils import ground_state, autonumber_filename, timestamp
 from src.protocol_ansatz import (
@@ -361,7 +362,7 @@ def _optimize_model_parameters_scan_times(
                 optimization_method=optimization_method
             )
             fid = (1 - result.fun)**2  
-            if not 0 <= fid <= 1:
+            if not 0 <= fid <= 1.01:
                 logging.info('Optimization failed: got a nonphysical fidelity.')
             logging.info('Fidelity: {}'.format(fid))
 
@@ -460,6 +461,8 @@ def find_best_protocol(
         hamiltonian = lmg_model.LMGModel(
             num_spins=model_parameters['num_spins']
         )
+    elif model == 'lz':
+        hamiltonian = lz_model.LZModel(omega_0=model_parameters['omega_0'])
     else:
         raise ValueError("{} isn't a valid value for the model".format(model))
 

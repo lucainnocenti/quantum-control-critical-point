@@ -36,7 +36,8 @@ def _make_CRAB_pulse_correction_fun(Ak, Bk, nuk, tf, normalising_pulse=None):
     nuk = np.asarray(nuk)
     # there must be the same number of elements in Ak, Bk, nuk
     if len(Bk) != len(Ak) or len(Ak) != len(nuk):
-        raise ValueError('There must be the same number of Ak, Bk, nuk.')
+        raise ValueError('Ak, Bk, nuk must have same lengths (I got {}, {}, '
+                         'and {}, respectively)'.format(Ak.shape, Bk.shape, nuk.shape))
     N = len(Ak)
 
     # random_frequencies = 2 * np.pi * np.arange(1, N + 1) * nuk / tf
@@ -55,6 +56,7 @@ def _make_CRAB_pulse_correction_fun(Ak, Bk, nuk, tf, normalising_pulse=None):
             Ak * np.sin(random_frequencies * t) +
             Bk * np.cos(random_frequencies * t)
         )
+
     return pulse
 
 
@@ -75,7 +77,7 @@ def _make_CRAB_ramp_fun(Ak, Bk, nuk, tf, y0, y1, normalising_pulse=None):
     CRAB_correction = _make_CRAB_pulse_correction_fun(
         Ak, Bk, nuk, tf, normalising_pulse=normalising_pulse)
     def final_ramp_fun(t, *args):
-        return CRAB_correction(t) * linear_segment(x0=0, x1=tf, y0=0, y1=y1, t=t)
+        return CRAB_correction(t) * linear_segment(x0=0, x1=tf, y0=y0, y1=y1, t=t)
     return final_ramp_fun
 
 
