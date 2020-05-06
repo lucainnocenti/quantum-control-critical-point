@@ -12,6 +12,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import qutip
+import scipy
+import scipy.linalg
 
 
 def linear_segment(x0, x1, y0, y1, t):
@@ -197,8 +199,7 @@ def _evolve_state_with_qutip_mesolve(H0, H1, state, tlist, td_fun,
     """
     # the following loop was added because often the ODE solver used by
     # qutip.mesolve got stuck. In those cases increasing the number of
-    # steps seems to fix the problem, so this is a quick and dirty
-    # workaround
+    # steps seems to fix the problem, so this is a quick and dirty workaround
     trial_idx = 0
     results = None
     if options is not None:
@@ -311,10 +312,31 @@ class ProtocolAnsatz:
                      return_all_states=False, solver_options=None):
         """Evolve the given state with the prescribed protocol.
 
-        By default, this uses the qutip.mesolve solver.
+        Unless this function is overridden, the states are evolved using
+        the qutip.mesolve solver.
         However, in some cases it is more efficient to use other methods, e.g.
         for doublebang-like protocols. In these cases, this function should be
         overridden by subclasses.
+
+        Parameters
+        ----------
+        time_independent_ham : qutip.Qobj
+            The non-interacting term of the Hamiltonian.
+        time_dependent_ham : qutip.Qobj
+            The interacting term of the Hamiltonian
+        protocol_parameters : np.ndarray
+            List of parameters defining the pulse shape. E.g. for a doublebang
+            protocol these are (y0, t1, y1).
+        initial_state : qutip.Qobj
+            Initial state as a qutip object. Usually the ground state of the
+            time independent Hamiltonian.
+        tlist : list
+            List of times. qutip.mesolve really likes to have this stuff
+        return_all_states : bool
+            If true we return all states at the times `tlist`, otherwise only
+            the final one (the latter is usually the case).
+        solver_options : dict
+            Passed directly to qutip.mesolve (I think).
         """
         td_fun = self.time_dependent_fun(protocol_parameters)
         return _evolve_state_with_qutip_mesolve(
@@ -384,6 +406,31 @@ class DoubleBangProtocolAnsatz(ProtocolAnsatz):
     def constrain_intensities(self, boundaries):
         """Add constraints to all non-time parameters."""
         self.add_parameter_constraints(y0=boundaries, y1=boundaries)
+    
+    def evolve_state(self, time_independent_ham, time_dependent_ham,
+                     protocol_parameters, initial_state, tlist,
+                     return_all_states=False, solver_options=None):
+        """Override parent class to evolve the states more efficiently.
+
+        We don't need the qutip.mesolve solver for a doublebang. Here we just
+        compute the output using the expm given by scipy.
+
+        NOTE: we just use scipy.linalg.expm here. We might want to have a look
+        at scipy.sparse.linalg.expm_multiply for improvements if needed.
+        """
+
+        y0, t1, y1 = protocol_parameters
+        H0 = time_independent_ham.full()
+        H1 = time_dependent_ham.full()
+        first_U = scipy.linalg.expm(-1j * (H0 + y0 * H1) * t1)
+        second_U = scipy.linalg.expm(-1j * (H0 + y1 * H1) * (tf - t1))
+        
+        final_state = np.dot(second_U, np.dot(first_U, initial_state.full()))
+        return qutip.Qobj(final_state)  # do we need to also change the dims?
+        # return _evolve_state_with_qutip_mesolve(
+        #     H0=time_independent_ham, H1=time_dependent_ham,
+        #     state=initial_state, tlist=tlist, td_fun=td_fun,
+        #     return_all_states=return_all_states, options=solver_options)
 
 
 class BangRampProtocolAnsatz(ProtocolAnsatz):
