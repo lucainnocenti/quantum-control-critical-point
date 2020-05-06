@@ -25,7 +25,7 @@ class TimeDependentHamiltonian:
         """
         self.H0 = None
         self.H1 = None
-        self.td_protocol = None
+        self.td_protocol = None  # a ProtocolAnsatz object
         self.model_parameters = None
         raise NotImplementedError('Children must override this.')
     
@@ -54,39 +54,21 @@ class TimeDependentHamiltonian:
         return ground_state(self.critical_hamiltonian)
     
     def evolve_state(self, state, tlist, td_protocol_parameters,
-                     return_all_states=False):
+                     return_all_states=False, solver_options=None):
         if self.td_protocol is None:
             raise ValueError('The protocol must be specified first.')
         if isinstance(tlist, numbers.Number):
             tlist = np.linspace(0, tlist, 40)
 
-        protocol = self.td_protocol
-        td_fun = protocol.time_dependent_fun(td_protocol_parameters)
-        # the following loop was added because often the ODE solver used by
-        # qutip.mesolve got stuck. In those cases increasing the number of
-        # steps seemed to always fix the problem, so this is a quick and dirty
-        # solution to work around the problem.
-        trial_idx = 0
-        results = None
-        while (trial_idx < 3 and results is None):
-            try:
-                results = qutip.mesolve(
-                    H=[self.H0, [self.H1, td_fun]],
-                    rho0=state,
-                    tlist=tlist
-                ).states
-            except Exception:
-                logging.info('The ODE solver seems to have got stuck. Trying '
-                             'to double the number of time steps.')
-                trial_idx += 1
-                tlist = np.linspace(tlist[0], tlist[-1], 2 * len(tlist))
+        protocol = self.td_protocol  # a protocol_ansatz.ProtocolAntatz object
+        # we outsource evolving the states to the ProtocolAnsatz object (this
+        # is because different protocols might prefer different ways to solve
+        # the dynamics)
+        return protocol.evolve_state(
+            time_independent_ham=self.H0,
+            time_dependent_ham=self.H1,
+            protocol_parameters=td_protocol_parameters,
+            initial_state=state, tlist=tlist,
+            return_all_states=return_all_states, solver_options=solver_options
+        )
 
-        if trial_idx == 3:
-            logging.info('THE SOLVER FUCKING SUCKS')
-            return state
-
-        
-        if return_all_states:
-            return results
-        else:
-            return results[-1]

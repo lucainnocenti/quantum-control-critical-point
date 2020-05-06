@@ -11,6 +11,7 @@ from collections import OrderedDict
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import qutip
 
 
 def linear_segment(x0, x1, y0, y1, t):
@@ -171,6 +172,8 @@ def make_bangramp_pulse_fun(parameters, tf):
 def make_doublebang_pulse_fun(parameters, tf):
     """Return double-bang pulse function.
 
+    y0, t1, y1 = parameters
+
     For 0 <= t <= t1, constant height y0.
     For t >= t1, constant height y1.
     """
@@ -183,6 +186,48 @@ def make_doublebang_pulse_fun(parameters, tf):
         else:
             return 200.
     return fun
+
+
+def _evolve_state_with_qutip_mesolve(H0, H1, state, tlist, td_fun,
+                                     return_all_states=False, options=None):
+    """Wrapper around qutip.mesolve.
+
+    options : dict
+        These options are passed directly to qutip.mesolve
+    """
+    # the following loop was added because often the ODE solver used by
+    # qutip.mesolve got stuck. In those cases increasing the number of
+    # steps seems to fix the problem, so this is a quick and dirty
+    # workaround
+    trial_idx = 0
+    results = None
+    if options is not None:
+        logging.debug('Using custom solver options: {}'.format(options))
+        options = qutip.Options(**options)
+    # logging.info('The solver options are: {}'.format(options))
+    while (trial_idx < 3 and results is None):
+        try:
+            results = qutip.mesolve(
+                H=[H0, [H1, td_fun]],
+                rho0=state,
+                tlist=tlist,
+                options=options
+            ).states
+        except Exception:
+            logging.info('The ODE solver seems to have got stuck. Trying '
+                            'to double the number of time steps.')
+            trial_idx += 1
+            tlist = np.linspace(tlist[0], tlist[-1], 2 * len(tlist))
+
+    if trial_idx == 3:
+        logging.info('THIS SOLVER FUCKING SUCKS')
+        return state
+
+    
+    if return_all_states:
+        return results
+    else:
+        return results[-1]
 
 
 class ProtocolAnsatz:
@@ -260,6 +305,23 @@ class ProtocolAnsatz:
             fun = self.add_total_height_constraint_check(fun)
         # return the function (which for each time gives a number)
         return fun
+
+    def evolve_state(self, time_independent_ham, time_dependent_ham,
+                     protocol_parameters, initial_state, tlist,
+                     return_all_states=False, solver_options=None):
+        """Evolve the given state with the prescribed protocol.
+
+        By default, this uses the qutip.mesolve solver.
+        However, in some cases it is more efficient to use other methods, e.g.
+        for doublebang-like protocols. In these cases, this function should be
+        overridden by subclasses.
+        """
+        td_fun = self.time_dependent_fun(protocol_parameters)
+        return _evolve_state_with_qutip_mesolve(
+            H0=time_independent_ham, H1=time_dependent_ham,
+            state=initial_state, tlist=tlist, td_fun=td_fun,
+            return_all_states=return_all_states, options=solver_options)
+
     
     def add_parameter_constraints(self, **kwargs):
         for par_name, constraint in kwargs.items():
@@ -364,7 +426,7 @@ class CRABProtocolAnsatz(ProtocolAnsatz):
         
         # option enabled by default
         self.generate_rnd_frequencies_each_tf = True
-        # frequencies + amps A and B + y0 and y1
+        # frequencies + amps A and B + tf, y0, and y1
         self.num_parameters_to_save = 3 * num_frequencies + 3
     
     def protocol_shape(self, pars):
@@ -374,6 +436,54 @@ class CRABProtocolAnsatz(ProtocolAnsatz):
         y0 = self.hyperpars['y0']
         y1 = self.hyperpars['y1']
         return make_CRAB_final_ramp_fun(pars, nuk, tf, y0, y1)
+
+    def fill_hyperpar_value(self, **kwargs):
+        """Automatically add constraints whenever tf is filled."""
+        if self.generate_rnd_frequencies_each_tf and 'tf' in kwargs:
+            new_freqs = np.random.uniform(
+                low=-0.5, high=0.5, size=self.num_frequencies)
+            for idx in range(self.num_frequencies):
+                self.hyperpars['nuk' + str(idx + 1)] = new_freqs[idx]
+            logging.debug('Regenerated CRAB frequencies: nuk={}'.format(
+                new_freqs))
+        super().fill_hyperpar_value(**kwargs)
+    
+    def constrain_all_amplitudes(self, boundaries):
+        """Add given constraints to all A, B amplitudes."""
+        constraints = {par_name: boundaries for par_name in self.pars_names}
+        self.add_parameter_constraints(**constraints)
+
+
+class CRABVariableEndpointsProtocolAnsatz(ProtocolAnsatz):
+    """
+    Same as the standard CRAB protocol, but here the endpoints, `y0` and `y1`,
+    are taken as parameters to be optimised, instead of just being hyperpars.
+    """
+    def __init__(self, num_frequencies):
+        self.num_frequencies = num_frequencies
+        pars_names = ['A' + str(idx + 1) for idx in range(num_frequencies)]
+        pars_names += ['B' + str(idx + 1) for idx in range(num_frequencies)]
+        pars_names += ['y0', 'y1']
+        nuk_names = ['nuk' + str(idx + 1) for idx in range(num_frequencies)]
+        super().__init__(
+            name='crabVarEndpoints',
+            pars_names=pars_names,
+            hyperpars_names=['tf'] + nuk_names
+        )
+        logging.debug('Using {} frequencies'.format(num_frequencies))
+        
+        # option enabled by default
+        self.generate_rnd_frequencies_each_tf = True
+        # frequencies + amps A and B + tf, y0, and y1
+        self.num_parameters_to_save = 3 * num_frequencies + 3
+    
+    def protocol_shape(self, pars):
+        nuk = [self.hyperpars['nuk' + str(idx + 1)]
+               for idx in range(self.num_frequencies)]
+        tf = self.hyperpars['tf']
+        # the last two elements of `pars` should be y0 and y1, but
+        # `make_CRAB_final_ramp_fun` expects as `pars` only the A, B pars.
+        return make_CRAB_final_ramp_fun(pars[:-2], nuk, tf, pars[-2], pars[-1])
 
     def fill_hyperpar_value(self, **kwargs):
         """Automatically add constraints whenever tf is filled."""
@@ -435,5 +545,55 @@ class TripleBangProtocolAnsatz(ProtocolAnsatz):
         """
         _, _, _, t1, t2 = pars
         if t1 > t2:
+            return False
+        return super().are_pars_in_boundaries(pars)
+
+
+class QuadrupleBangProtocolAnsatz(ProtocolAnsatz):
+    def __init__(self):
+        super().__init__(
+            name='triplebang',
+            pars_names=['y1', 'y2', 'y3', 'y4', 't1', 't2', 't3'],
+            hyperpars_names=['tf']
+        )
+        self.num_parameters_to_save = 8
+    
+    def protocol_shape(self, pars):
+        y1, y2, y3, y4, t1, t2, t3 = pars
+        tf = self.hyperpars['tf']
+        def fun(t, *args):
+            if 0 <= t <= t1:
+                return y1
+            elif t1 < t <= t2:
+                return y2
+            elif t2 < t <= t3:
+                return y3
+            elif t3 < t <= tf:
+                return y4
+            else:
+                return 200.
+        return fun
+    
+    def fill_hyperpar_value(self, **kwargs):
+        """Automatically add constraints whenever tf is filled."""
+        for par_name, par_value in kwargs.items():
+            if par_name == 'tf':
+                self.add_parameter_constraints(t1=[0, par_value])
+                self.add_parameter_constraints(t2=[0, par_value])
+                self.add_parameter_constraints(t3=[0, par_value])
+        super().fill_hyperpar_value(**kwargs)
+    
+    def constrain_intensities(self, boundaries):
+        """Add constraints to all non-time parameters."""
+        self.add_parameter_constraints(y1=boundaries, y2=boundaries,
+                                       y3=boundaries, y4=boundaries)
+    
+    def are_pars_in_boundaries(self, pars):
+        """Check that the parameters are consistent with each other.
+        
+        Used to ensure that t1 is less than t2
+        """
+        _, _, _, _, t1, t2, t3 = pars
+        if t1 > t2 or t2 > t3:
             return False
         return super().are_pars_in_boundaries(pars)
