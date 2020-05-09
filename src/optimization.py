@@ -221,6 +221,9 @@ def optimize_model_parameters(
     initial_parameters : list_like of floats
         The optimization will proceed from this initial value of the protocol
         parameters.
+        NOTE: We don't support ranges or strings here to have flexible or
+              random initial parameter values. For that you need to work with
+              the higher level interface `find_best_protocol`.
     optimization_method : string
         Passed over to scipy.optimize.minimize
     optimization_options : dict
@@ -228,6 +231,17 @@ def optimize_model_parameters(
         It is to be used to specify method-specific options.
     solver_options : dict
         These are options passed to the solver (usually qutip.mesolve)
+    
+    Returns
+    -------
+    The result object returned by scipy.optimize.minimize (essentially a dict
+    containing the optimisation data).
+
+    The final value of the cost function is stored in `result.fun`. THIS
+    EQUALS (1 - F) WITH F THE *NON*-SQUARED FIDELITY. You need to compute
+    1 - (1 - fun)**2 to obtain the infidelity.
+
+    `result.x` contains the optimised values of the protocol parameters.
     """
     BIG_BAD_VALUE = 200  # yes, I pulled this number out of my ass
     if isinstance(tlist, numbers.Number):
@@ -579,8 +593,7 @@ def find_best_protocol(
                 if len(pars_constraints) == 2:
                     if protocol == 'crab' or protocol == 'crabVarEndpoints':
                         protocol.constrain_all_amplitudes(CRAB_AMPS_BOUNDS)
-                        protocol.set_total_height_constraints(
-                            pars_constraints)
+                        protocol.set_total_height_constraints(pars_constraints)
                     else:
                         protocol.constrain_intensities(pars_constraints)
             else:

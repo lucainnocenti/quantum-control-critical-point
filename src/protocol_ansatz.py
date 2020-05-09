@@ -236,9 +236,16 @@ def _evolve_state_with_qutip_mesolve(H0, H1, state, tlist, td_fun,
 class ProtocolAnsatz:
     """Prototype for protocol pulse shapes (e.g. doublebang, bangramp, CRAB).
 
-    Attributes
-    ----------
-    
+    Typical usage is to attach the `ProcolAnsatz` object to a
+    `TimeDependentHamiltonian` instance. The hamiltonian object will then use
+    the ProtocolAnsatz to handle state evolution. This allows different
+    protocols to use the most convenient dynamics solver (e.g. simple expm for
+    piecewise constant evolutions) without the hamiltonian obj worrying about
+    that.
+
+    We also handle checking if the protocol is outside specified boundaries,
+    note however that the possible consequences of this are handled by the
+    hamiltonian or optimizer objects, not here.
     """
     
     def __init__(self, name, pars_names, hyperpars_names=None):
@@ -436,12 +443,6 @@ class DoubleBangProtocolAnsatz(ProtocolAnsatz):
         final_state = np.dot(second_U, np.dot(first_U, initial_state.full()))
         return qutip.Qobj(final_state)  # do we need to also change the dims?
 
-        # td_fun = self.time_dependent_fun(protocol_parameters)
-        # return _evolve_state_with_qutip_mesolve(
-        #     H0=time_independent_ham, H1=time_dependent_ham,
-        #     state=initial_state, tlist=tlist, td_fun=td_fun,
-        #     return_all_states=return_all_states, options=solver_options)
-
 
 class BangRampProtocolAnsatz(ProtocolAnsatz):
     def __init__(self):
@@ -529,7 +530,8 @@ class CRABVariableEndpointsProtocolAnsatz(ProtocolAnsatz):
         )
         logging.debug('Using {} frequencies'.format(num_frequencies))
         
-        # option enabled by default
+        # when true, new random frequencies are generated every time the tf
+        # is given a new value
         self.generate_rnd_frequencies_each_tf = True
         # frequencies + amps A and B + tf, y0, and y1
         self.num_parameters_to_save = 3 * num_frequencies + 3
@@ -544,6 +546,8 @@ class CRABVariableEndpointsProtocolAnsatz(ProtocolAnsatz):
 
     def fill_hyperpar_value(self, **kwargs):
         """Automatically add constraints whenever tf is filled."""
+        # if the option is enabled and a new tf is being given, generate a
+        # new set of frequencies.
         if self.generate_rnd_frequencies_each_tf and 'tf' in kwargs:
             new_freqs = np.random.uniform(
                 low=-0.5, high=0.5, size=self.num_frequencies)
