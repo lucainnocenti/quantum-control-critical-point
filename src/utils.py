@@ -53,7 +53,15 @@ def flatten(container):
 
 def make_new_data_filename(model, protocol, optim_method,
                            bound=None, other_stuff=None, num_frequencies=None):
-    """Build the string for a new dataset filename."""
+    """Build the string for a new dataset filename.
+    
+    NOTE: The code to rename files after the (1) has been created doesn't
+    actualy work (it currently just appends new numbers). To edit with some
+    re.match sweetness.
+    """
+    if protocol == 'crab' and num_frequencies is None:
+        print('BEWARE, you specified CRAB but did not put the number of'
+              'frequencies in the filename. If this is on purpose, carry on.')
     if protocol == 'crab' and num_frequencies is not None:
         output_str = '{}_crab{}freq_{}'.format(model, num_frequencies, optim_method)
     else:

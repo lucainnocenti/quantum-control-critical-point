@@ -15,6 +15,8 @@ import qutip
 import scipy
 import scipy.linalg
 
+from src.utils import fidelity
+
 
 def linear_segment(x0, x1, y0, y1, t):
     """Return the linear function interpolating the given points."""
@@ -418,6 +420,12 @@ class DoubleBangProtocolAnsatz(ProtocolAnsatz):
         NOTE: we just use scipy.linalg.expm here. We might want to have a look
         at scipy.sparse.linalg.expm_multiply for improvements if needed.
         """
+        # if tlist is a list, the last element is the tf we need, otherwise
+        # we assume it's just a number as it should
+        try:
+            tf = tlist[-1]
+        except TypeError:
+            tf = tlist
 
         y0, t1, y1 = protocol_parameters
         H0 = time_independent_ham.full()
@@ -427,6 +435,8 @@ class DoubleBangProtocolAnsatz(ProtocolAnsatz):
         
         final_state = np.dot(second_U, np.dot(first_U, initial_state.full()))
         return qutip.Qobj(final_state)  # do we need to also change the dims?
+
+        # td_fun = self.time_dependent_fun(protocol_parameters)
         # return _evolve_state_with_qutip_mesolve(
         #     H0=time_independent_ham, H1=time_dependent_ham,
         #     state=initial_state, tlist=tlist, td_fun=td_fun,

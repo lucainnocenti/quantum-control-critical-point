@@ -235,6 +235,8 @@ def optimize_model_parameters(
 
     # hamiltonian.td_protocol is a protocol_ansatz object. All of the hyperpars
     # should already have been fixed, only exception being the total time
+    if hamiltonian.td_protocol is None:
+        raise ValueError('Did you forget to specify a protocol pal?')
     protocol = hamiltonian.td_protocol
     protocol.fill_hyperpar_value(tf=tlist[-1])
     def fidelity_vs_model_parameters(pars):
