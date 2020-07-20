@@ -14,6 +14,7 @@
 
 4. ./parameters_scans_20190221:
 	Fixing a constant function protocol, for both rabi and lmg, we scan many possible values of total time and height of the protocol and look at how the fidelity varies.
+	Also contains Mathematica notebook to analyse the results.
 
 5. ./lmg_different_spinnumbers_20190228:
 	Same as the scans in rabi_and_lmg_optimiations, but only for the lmg, fixing the parameter constraints, and trying with many different total numbers of spins.
